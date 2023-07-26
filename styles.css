@@ -1,1 +1,114 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 5% 10%;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 10vh;
+    gap: 30px;
+}
+
+/* #logo {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        transform: rotate(740deg);
+    }
+}
+
+h1 {
+    margin: 20px;
+} */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.saved-solution {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: none;
+}
+
+.saved-solution:hover {
+    box-shadow: 5px 5px 0px rgb(255, 187, 0);
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+.hero-section {
+    display: flex;
+    /* margin: 30px 0; */
+    gap: 10px;
+}
+
+.hero-section>div>input{
+    height: 30px;
+    padding: 0 10px;
+}
+
+#category{
+    height: 34.5px;
+    padding: 0 10px;
+}
+
+#search-problem {
+    margin-top: 16px;
+    padding: 4px 5.5px;
+    border:none;
+    background-color: #131313;
+    border-radius: 50%;
+    transition: transform .4s;
+}
+#search-problem:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: 3px 3px 0px rgb(255, 187, 0);
+}
+
+
+button>img {
+    height: 40px;
+    width: 40px;
+}
+
+.last-section, .saved-item {
+    height: 200px;
+    border-radius: 20px;
+    background-color: rgb(221, 221, 221);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#output-part, .saved-part{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.output{
+    flex: 1;
+}
+
+.output-button{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
